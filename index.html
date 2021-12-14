@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="icon" href="./Daily-Routine-1.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <!-- Upper container -->
+    
+        <div class="clockz">
+            <div >
+                <img src="./clock_logo.png" alt="clock" class="clock_icon">
+            </div>
+    
+            <!-- Digital clock div -->
+    
+            <div class="running_clock">
+                <div class="time">TIME</div>
+                <div id="clocktime">
+                    <div class="hrs">
+                        <span id="h">
+                            00</span><br><br>
+                            <p style="font-weight: normal;margin-left: 20px;color: rgb(125, 22, 209);">hours</p>
+                    </div>
+                        <p class="colon">:</p>
+                    <div class="mins">
+                        <span id="m">
+                        00</span><br><br>
+                        <p style="font-weight: normal;color: rgb(125, 22, 209);">min</p>
+                    </div>
+                        <p class="colon">:</p>
+                    <div class="sec">
+                        <span id="s">
+                        00</span><br><br>
+                        <p style="font-weight: normal;color: rgb(125, 22, 209);">sec</p>
+                    </div>
+                    <div id="am_pm">
+                        <p>AM</p>
+                    </div>
+                </div>
+            </div>
+                <div>
+                    <div class="c1"></div>
+                    <div class="c2"></div>
+                </div>
+            </div>
+    
+            <!-- Left and Right container's main div -->
+    
+    
+            <div class="main_container">
+    
+                <!-- Left container for time selection -->
+    
+    
+                <div class="set_time">
+                    <div id="wake_up">
+                        <div class="icon_bar">
+                            <div><img src="./wake_up.svg" alt="" style="margin-right: 20px;"></div>
+                            <label for="morning" style="margin-right: 50px;">Set wake up Time</label>
+                            <select name="time" id="morning">
+                                <option value="default">Default</option>
+                                <option value="1">1 AM</option>
+                                <option value="2">2 AM</option>
+                                <option value="3">3 AM</option>
+                                <option value="4">4 AM</option>
+                                <option value="5">5 AM</option>
+                                <option value="6">6 AM</option>
+                                <option value="7">7 AM</option>
+                                <option value="8">8 AM</option>
+                                <option value="9">9 AM</option>
+                                <option value="10">10 AM</option>
+                                <option value="11">11 AM</option>
+                                <option value="12">12 PM</option>
+                                <option value="13">1 PM</option>
+                                <option value="14">2 PM</option>
+                                <option value="15">3 PM</option>
+                                <option value="16">4 PM</option>
+                                <option value="17">5 PM</option>
+                                <option value="18">6 PM</option>
+                                <option value="19">7 PM</option>
+                                <option value="20">8 PM</option>
+                                <option value="21">9 PM</option>
+                                <option value="22">10 PM </option>
+                                <option value="23">11 PM</option>
+                                <option value="0">12 AM</option>
+                            </select>
+                        </div><br><br>
+                    </div>
+                    <div id="lunch">
+                        <div class="icon_bar">
+                            <div><img src="./lunch_time.svg" alt="" style="margin-right: 20px;"></div>
+                            <label for="lunch" style="margin-right: 63px;">Set Lunch Time</label>
+                            <select name="time" id="lunch_time">
+                                <option value="default">Default</option>
+                                <option value="1">1 AM</option>
+                                <option value="2">2 AM</option>
+                                <option value="3">3 AM</option>
+                                <option value="4">4 AM</option>
+                                <option value="5">5 AM</option>
+                                <option value="6">6 AM</option>
+                                <option value="7">7 AM</option>
+                                <option value="8">8 AM</option>
+                                <option value="9">9 AM</option>
+                                <option value="10">10 AM</option>
+                                <option value="11">11 AM</option>
+                                <option value="12">12 PM</option>
+                                <option value="13">1 PM</option>
+                                <option value="14">2 PM</option>
+                                <option value="15">3 PM</option>
+                                <option value="16">4 PM</option>
+                                <option value="17">5 PM</option>
+                                <option value="18">6 PM</option>
+                                <option value="19">7 PM</option>
+                                <option value="20">8 PM</option>
+                                <option value="21">9 PM</option>
+                                <option value="22">10 PM </option>
+                                <option value="23">11 PM</option>
+                                <option value="0">12 AM</option>
+                            </select>
+                        </div><br>
+                    </div>
+                    <div id="dinner">
+                        <div class="icon_bar">
+                            <div><img src="./lunch_time.svg" alt="" style="margin-right: 15px;"></div>
+                            <label for="dinner" style="margin-right: 58px;">Set Dinner Time</label>
+                            <select name="time" id="dinner_time">
+                                <option value="default">Default</option>
+                                <option value="1">1 AM</option>
+                                <option value="2">2 AM</option>
+                                <option value="3">3 AM</option>
+                                <option value="4">4 AM</option>
+                                <option value="5">5 AM</option>
+                                <option value="6">6 AM</option>
+                                <option value="7">7 AM</option>
+                                <option value="8">8 AM</option>
+                                <option value="9">9 AM</option>
+                                <option value="10">10 AM</option>
+                                <option value="11">11 AM</option>
+                                <option value="12">12 PM</option>
+                                <option value="13">1 PM</option>
+                                <option value="14">2 PM</option>
+                                <option value="15">3 PM</option>
+                                <option value="16">4 PM</option>
+                                <option value="17">5 PM</option>
+                                <option value="18">6 PM</option>
+                                <option value="19">7 PM</option>
+                                <option value="20">8 PM</option>
+                                <option value="21">9 PM</option>
+                                <option value="22">10 PM </option>
+                                <option value="23">11 PM</option>
+                                <option value="0">12 AM</option>
+                            </select>
+                        </div><br>
+                    </div>
+                    <div class="nap">
+                        <div class="icon_bar">
+                            <div><img src="./nap_time.svg" alt="" style="margin-right: 20px;"></div>
+                            <div><label for="nap" style="margin-right:65px;">Set Nap -Time</label>
+                            <select name="time" id="nap">
+                                <option value="default">Default</option>
+                                <option value="1">1 AM</option>
+                                <option value="2">2 AM</option>
+                                <option value="3">3 AM</option>
+                                <option value="4">4 AM</option>
+                                <option value="5">5 AM</option>
+                                <option value="6">6 AM</option>
+                                <option value="7">7 AM</option>
+                                <option value="8">8 AM</option>
+                                <option value="9">9 AM</option>
+                                <option value="10">10 AM</option>
+                                <option value="11">11 AM</option>
+                                <option value="12">12 PM</option>
+                                <option value="13">1 PM</option>
+                                <option value="14">2 PM</option>
+                                <option value="15">3 PM</option>
+                                <option value="16">4 PM</option>
+                                <option value="17">5 PM</option>
+                                <option value="18">6 PM</option>
+                                <option value="19">7 PM</option>
+                                <option value="20">8 PM</option>
+                                <option value="21">9 PM</option>
+                                <option value="22">10 PM </option>
+                                <option value="23">11 PM</option>
+                                <option value="0">12 AM</option>
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <!-- Right container with image and greeting msg -->
+    
+    
+                <div id="right_container">
+                    <div id="it_is_time"></div>
+            
+                    <div id=img_container> 
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Button -->
+            <div><button id="btn" onclick="set_time()">Set Time</button></div>
+    
+            <!-- Dynamic div -->
+    
+            <div class="dtext" id="info"></div> 
+        </div>
+        
+    
+    
+    <div class="container">
+        <ul class="box_area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+body{
+    background-color: #3D087B;
+}
+.clockz{
+    display: flex;
+}
+.clock_icon{
+    width: 250px;
+    height: 100px;
+    margin-top:8% ;
+    margin-left: 40px;
+}
+.running_clock{
+    display:flex;
+    position: relative;
+    width: 500px;
+    z-index: 3;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    margin-left: 35%;
+    margin-top: 17px;
+    border-radius: 10px;
+}
+.c1{
+    position: relative;
+    top:80px;
+    right:410px;
+    z-index: -1;
+    width: 400px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.829);
+    border-radius: 10px;
+}
+.c2{
+    position: relative;
+    z-index: -90;
+    top:20px;
+    right:370px;
+    z-index: -6;
+    width: 320px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 10px;
+}
+#clocktime{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.time{
+    font-size: 20px;
+    color: rgb(125, 22, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#h{
+    color: rgb(125, 22, 209);
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 60px;
+    background-color: rgba(238, 130, 238, 0.582);
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#m{
+    color: rgb(125, 22, 209);
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(238, 130, 238, 0.582);
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#s{
+    color: rgb(125, 22, 209);
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    background-color: rgba(238, 130, 238, 0.582);
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#am_pm{
+    color: rgb(125, 22, 209);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    background-image:linear-gradient(to bottom,rgb(193, 136, 240)40%,rgba(206, 13, 206, 0.904));
+    padding-top: 20px;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.colon{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+/* ------------------------------------------- */
+
+/* Set time CSS */
+
+.main_container{
+    display: flex;}
+.set_time{
+    background-color: white;
+    width: 30%;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.icon_bar{
+    display: flex;
+}
+select{
+    width: 150px;
+    height: 30px;
+    
+}
+#lunch{
+    margin-bottom: 15px;   
+}
+#dinner{
+    margin-bottom: 15px;
+}
+#nap{
+    margin-bottom: 15px;   
+}
+/* ------------------------------------- */
+
+/* Image and greeting container */
+
+
+#right_container{
+    border-radius: 10px;
+    margin-left: 22.5%;
+    margin-top: 50px;
+
+}
+#it_is_time{
+    background-color: white;
+    width: 30.1rem;
+    height: 50px; 
+    font-size: 30px;
+    color: rgb(58, 12, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: rgb(255, 165, 165) 2px 2px;
+}
+#img_container{
+    background-image: url("./Daily-Routine-1.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:1px solid white;
+    width: 31.99rem;
+    height:25rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* ----------------------------------------- */
+
+/* Button CSS */
+
+
+#btn{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    width: 150px;
+    height: 40px;
+    background-image: linear-gradient(to right,rgb(162, 0, 255)60%,rgb(243, 28, 243));
+    color:white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#btn:hover{
+    background-image: linear-gradient(to right,rgb(243, 28, 243)60%,rgb(162, 0, 255));
+    cursor: pointer;
+}
+
+/* ------------------------------------------- */
+
+/* Dynamic div CSS */
+
+#dynamic_box{
+   position: relative;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    line-height: 25px;
+    border-radius: 10px;
+    bottom: 100px;
+    height: 100px;
+    width: 30%;
+    background-color: rgb(241, 69, 241);
+    color: white;
+    font-size: 15px;
+}
+.container{
+    background-color: #3d087b;
+    width: 100%;
+    height:100vh;
+}
+.box_area{
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+}
+.box_area>li{
+    position:absolute;
+    display: block;
+    list-style: none;
+    width:25px;
+    height: 25px;
+    background: rgba(255,255,255,0.2);
+    animation:animate 20s linear infinite;
+    bottom:-150px;
+}
+.box_area li:nth-child(1){
+    left:86%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+.box_area li:nth-child(2){
+    left:12%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+}
+.box_area li:nth-child(3){
+    left:70%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 5.5s;
+}
+.box_area li:nth-child(4){
+    left:70%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+}
+.box_area li:nth-child(5){
+    left:60%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+}
+.box_area li:nth-child(6){
+    left:15%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3.5s;
+}
+.box_area li:nth-child(7){
+    left:30%;
+    width: 110px;
+    height: 110px;
+    animation-delay:10s;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0) rotate(180deg);
+        opacity:1;
+    }
+    /* 50%{
+        transform: translateY(-600px) rotate(360deg);
+        opacity:0;
+    } */
+    100%{
+        transform: translateY(-800px) rotate(360deg);
+        opacity:1;
+    }
+}
